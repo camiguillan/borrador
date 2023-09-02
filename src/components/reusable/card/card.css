@@ -1,0 +1,19 @@
+.card-container{
+    margin: 2rem;
+    /* width: 18rem; */
+}
+
+
+.card:hover{
+    background-color: #c2c0c0;
+    cursor: pointer;
+}
+
+.card-footer{
+    border-color: white;
+    background-color: white;
+    align-content: end;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
