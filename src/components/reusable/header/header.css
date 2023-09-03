@@ -1,8 +1,12 @@
 .agro-header{
-    margin-left: 1rem;
-    margin-right: 1rem; 
+    margin-left: 1rem !important;
+    margin-right: 1rem !important; 
 }
 
+.agro-nav{
+    display: flex !important;
+    justify-content: space-around !important;
+}
 
 .nav-underline{
     color: #2A7D2E;
@@ -100,4 +104,16 @@ h1{
     background-color: #2A7D2E !important;
     border-color: #2A7D2E !important;
     color: white  !important;
+}
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1810px !important;
+    }
+
+}
+
+@media (min-width: 100px) and (max-width: 1400px)
+{.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1370px  !important;}
 }

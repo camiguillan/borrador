@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 export default function Header({inicioSesion}) {
   const userID = 1
   return (
-      <Navbar expand="lg" className="bg-body-tertiary ">
+      <Navbar expand="lg" className="bg-body-tertiary  agro-nav">
       <Container className="agro-header">
       
         <Navbar.Brand href={`/home/${userID}`}> <Icon className="bi bi-flower1" color="#2a7d2e" fontSize="3rem" /> <h1>AGROIA</h1></Navbar.Brand>
