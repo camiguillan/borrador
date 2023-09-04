@@ -12,7 +12,7 @@ export default function CrearCampo() {
         <Card.Img variant="top" src={mapa}/>
       </Card.Body>
     </Card>
-    <Card  className='m-3 campo-container'>
+    <Card  className='m-3 campo-container' style={{width: "36rem"}}>
       <Card.Body>
             <Form>
             <Form.Group className="mb-3 d-flex" controlId="string">
