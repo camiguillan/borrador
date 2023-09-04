@@ -6,7 +6,7 @@ import "./card.css"
 function CardEx() {
   return (
     <div className='card-container' onClick={() => console.log("hola")}>
-    <Card style={{width: ""}} >
+    <Card style={{width: ""}} className='card-home'>
       <Card.Img variant="top" src={grass} />
       <Card.Body  >
         <Card.Title>Card Title</Card.Title>
@@ -16,7 +16,7 @@ function CardEx() {
         </Card.Text>
         {/* <Button variant="primary">Go somewhere</Button> */}
       </Card.Body>
-         <Card.Footer>
+        <Card.Footer>
           <small className="text-muted">Last updated 3 mins ago</small>
         </Card.Footer>
     </Card>

@@ -46,8 +46,8 @@ export default function Header({inicioSesion}) {
         </div>
             ) : (
               <div className='btn-container'>
-              <Button>Iniciar Sesion</Button>
-              <Button>Registrarse</Button>
+              <Button variant="outline-primary">Iniciar Sesion</Button>
+              <Button variant="outline-primary">Registrarse</Button>
               </div>
 
 )}
