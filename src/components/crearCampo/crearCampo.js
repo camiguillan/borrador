@@ -14,9 +14,8 @@ export default function CrearCampo() {
     </Card>
     <Card  className='m-3 campo-container'>
       <Card.Body>
-       
             <Form>
-            <Form.Group className="mb-3" controlId="string">
+            <Form.Group className="mb-3 d-flex" controlId="string">
               <Form.Label>Nombre del Campo:</Form.Label>
               <Form.Control type="text" placeholder="Ingrese el nombre del campo" />
               {/* <Form.Text className="text-muted">
