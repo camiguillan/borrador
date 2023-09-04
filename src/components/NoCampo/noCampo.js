@@ -8,7 +8,7 @@ export default function NoCampo() {
  return (
     <Card className="text-center card-no-campo">
       <Card.Header className='card-header-no-campo'>
-        <Card.Img variant="top" src={campito} />
+        <Card.Img variant="top" src={campito} className='campito'/>
       </Card.Header>
       <Card.Body>
         <Card.Title className='card-title-no-campo'>TODAVÍA NO TIENES NINGÚN CAMPO REGISTRADO</Card.Title>

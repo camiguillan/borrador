@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Select from './components/reusable/select/select';
 import Home from './components/home/home';
 import NoCampo from './components/NoCampo/noCampo';
+import CrearCampo from './components/crearCampo/crearCampo';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
   <Home></Home>
   <Select></Select>
   <NoCampo></NoCampo>
+  <CrearCampo></CrearCampo>
     </div>
   );
 }

@@ -6,6 +6,10 @@
     filter: drop-shadow(10px 10px 10px rgb(168, 168, 168));
 }
 
+.campito{
+    border-radius: 0.375rem;
+}
+
 .card-header-no-campo{
     background-color: white;
 }
