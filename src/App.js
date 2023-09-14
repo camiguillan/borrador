@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
 
-  <Header inicioSesion={false}></Header>
+  <Header inicioSesion={true}></Header>
   <Home></Home>
   <Select></Select>
   <NoCampo></NoCampo>
