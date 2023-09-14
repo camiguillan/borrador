@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+
+/* YourComponent.css */
+
+/* Initial styles for the .fade-border class */
+.fade-border {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 2px solid transparent;
+  transition: border 5s ease;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fade-color{
+  border: 2px solid green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Styles for the ::before pseudo-element */
+/* .fade-border::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid #ff6600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Animation styles for the .animate class */
+/* .animate {
+  animation-name: borderFade;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: backwards;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
+@keyframes borderFade {
   from {
-    transform: rotate(0deg);
+    border-color:  #ff6600;
   }
   to {
-    transform: rotate(360deg);
+    border-color: green; 
   }
-}
+} */
+
